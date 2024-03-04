@@ -89,6 +89,7 @@ update_icon "Google Meet" "g_icons_g_meet"
 update_icon "Google Chat" "g_icons_g_chat"
 update_icon "Google Calendar" "g_icons_g_calendar"
 update_icon "Outlook" "g_icons_outlook"
+update_icon "Teams" "g_icons_teams"
 
 # Reset icon cache and restart Dock
 rm -rfv ~/Library/Caches/com.apple.iconservices.store
