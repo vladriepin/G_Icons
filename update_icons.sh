@@ -5,7 +5,7 @@ chrome_apps_path="$HOME/Applications/Chrome Apps.localized"
 
 # Define the path to your new PNG icons
 # Update this with the actual path
-color_pack='black'
+color_pack='white'
 new_icons_path="icons/input_png/${color_pack}"
 
 # Function to convert PNG to ICNS
