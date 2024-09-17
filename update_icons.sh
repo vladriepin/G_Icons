@@ -5,7 +5,8 @@ chrome_apps_path="$HOME/Applications/Chrome Apps.localized"
 
 # Define the path to your new PNG icons
 # Update this with the actual path
-new_icons_path="icons/input_png"
+color_pack='black'
+new_icons_path="icons/input_png/${color_pack}"
 
 # Function to convert PNG to ICNS
 convert_to_icns() {
@@ -83,12 +84,13 @@ update_icon() {
 
 
 # Update icons for your apps
-update_icon "Gmail" "g_icons_g_gmail"
-update_icon "YouTube Music" "g_icons_music"
-update_icon "Google Meet" "g_icons_g_meet"
-update_icon "Google Chat" "g_icons_g_chat"
+#update_icon "Gmail" "g_icons_g_gmail"
 update_icon "Google Calendar" "g_icons_g_calendar"
+update_icon "Google Chat" "g_icons_g_chat"
+update_icon "Google Meet" "g_icons_g_meet"
+update_icon "YouTube Music" "g_icons_music"
 update_icon "Outlook" "g_icons_outlook"
+update_icon "Microsoft Teams" "g_icons_teams"
 
 # Reset icon cache and restart Dock
 rm -rfv ~/Library/Caches/com.apple.iconservices.store
